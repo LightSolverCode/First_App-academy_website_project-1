@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+    color: white;
+}
+.h__container h1 {
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin: 70px 0px -10px 0px;
+    position: relative;
+    z-index: 1;
+    
+}
+.h__container h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    margin: -10px 0px 0px 0px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.h__container h3 {
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: -10px 0px 40px 0px;
+
+}
+
+.h__container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    transform: rotate(15deg);
+    
+    
+}
+
+nav {
+    margin: -8px -8px 0px -8px;
+    padding: 0px;
+}
+
+ul, a {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 0px;
+    position: sticky;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+        
+}
+
+ul, a:hover {
+    color: white;
+}
+
+.active {
+    color: white;
+}
+
+.h__cn {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(121, 121, 121);
+    
+}
+
+.h__cn1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.027);
+    padding: 20px;
+}
+
+.h__cn2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.027);
+    padding: 20px;
+}
+
+.h__cn3 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.027);
+    padding: 20px;
+}
+
+/* Page 2 ********************************************/
+
+legend {
+    border-style: solid;
+    background-color: white;
+    color: black;
+}
+
+form fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    margin: 100px auto 100px auto;
+}
+
+form textarea {
+    margin-top: 20px;
+}
+
+.subs {
+    padding: 15px;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/* Page 3 ********************************************/
+
+.my-work ul {
+    background-color: black;
+    display: block;
+    margin: 20px 0px;
+}
+
+.cool-comp a {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+.cool-comp a:hover {
+    color: red;
+}
+.my-work h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.my-work label {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+/* Page 4 ********************************************/
+
+.about-me-page {
+    text-align: center;
+}
+
+.about-me-page p {
+    margin: 0px 200px 0px 200px;
+}
+
+.vs-board {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.columns1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    flex: 33.33%;
+}
+
+.vs-img {
+    width: 80%;
+}
+
+.column a {
+    background-color: black;
+    padding: 0px;
+    margin: 20px;
+}
+
+.columns1 figcaption {
+    text-align: center;
+}
